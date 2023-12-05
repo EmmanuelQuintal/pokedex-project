@@ -1,0 +1,30 @@
+.pokedexContainer {
+    display: flex;
+}
+
+.pokeballImage {
+    flex: 1;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.pokemonButtonContainer {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.pokemonButton {
+    flex: 0 0 48%;
+    min-width: 48%;
+    margin: 5px;
+    height: 8.6%;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: yellow;
+}
